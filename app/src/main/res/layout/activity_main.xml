@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.example.toggledemo"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toggledemo.MainActivity">
+
+    <com.example.toggledemo.ui.ToggleView
+        android:id="@+id/toggle_view"
+        android:layout_width="wrap_content"
+        app:switch_background="@mipmap/switch_background"
+        app:slide_button="@mipmap/slide_button"
+        app:switch_state="false"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
